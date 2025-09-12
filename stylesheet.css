@@ -3,9 +3,12 @@ body {
     font-size: 16px;
     margin: 0;
     min-height: auto;
+    max-width: 100%;
+    margin:0 50px;
+    background-color: #1f2937;
 }
 
-.hero {
+.headernav {
     background-color: #1f2937;
     font-size: 18px;
     color: #e5e7eb;
@@ -20,4 +23,38 @@ ul {
     list-style: none;
     display: flex;
     gap: 20px;
+}
+
+.hero {
+    background-color: #1f2937;
+    padding: 50px 50px;
+    display: flex;
+    justify-content: space-between;
+    max-height: fit-content;
+    gap: 100px;
+}
+
+h1 {
+font-size: 48px;
+color: #f9faf8;
+font-weight: 800;
+margin: 0;
+}
+
+.hero p {
+font-size: 18px;
+color: #e5e7eb;
+}
+
+button {
+background-color: #3882f6;
+padding: 10px 30px;
+border: none;
+border-radius: 8px;
+}
+
+.heroimg {
+width: 100%;
+max-width: 500px;
+height: auto;
 }
