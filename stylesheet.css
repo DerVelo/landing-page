@@ -5,6 +5,7 @@ body {
     width: 100%;
 }
 
+
 .headernav {
     background-color: #1f2937;
     font-size: 18px;
@@ -31,26 +32,151 @@ ul {
 }
 
 h1 {
-font-size: 48px;
-color: #f9faf8;
-font-weight: 800;
-margin: 0;
+    font-size: 48px;
+    color: #f9faf8;
+    font-weight: 800;
+    margin: 0;
+}
+
+h2 {
+    text-align: center;
+    font-size: 36px;
+    color: #1f2937;
+    font-weight: 900;
+    /* margin: 0 0 20px 0; */
+}
+
+p {
+        font-size: 18px;
 }
 
 .hero p {
-font-size: 18px;
-color: #e5e7eb;
+    color: #e5e7eb;
 }
 
 button {
-background-color: #3882f6;
-padding: 10px 30px;
-border: none;
-border-radius: 8px;
+    background-color: #3882f6;
+    padding: 10px 30px;
+    border: none;
+    border-radius: 8px;
+}
+
+.text {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
 }
 
 .heroimg {
-width: 100%;
-max-width: 500px;
-height: auto;
+    width: 100%;
+    max-width: 500px;
+    height: auto;
+}
+
+.box {
+    width: 100px;
+    height: 100px;
+    border: 2px solid #3882f6;
+    border-radius: 5px; 
+}
+
+.information {
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    gap: 30px;
+}
+
+.information-boxes {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.information-boxes p {
+    text-align: center;
+}
+
+.second-part {
+    max-height: fit-content;
+    margin: 40px 100px;
+    padding: 0 50px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.quote {
+    background-color: #e5e7eb;
+    padding: 40px 300px;
+    min-width: 300px;
+}
+
+.quote-p {
+    font-size: 36px;
+    font-style: italic;
+    color: #1f2937;
+}
+
+.autor {
+    font-size: 18px;
+    font-weight: bold;
+    text-align: end;
+}
+
+.calltoaction {
+    margin: 100px;
+    display: flex;
+    justify-content: center;
+}
+
+.ctabox {
+    padding:50px;
+    width: fit-content;
+    height: fit-content;
+    min-width: 400px;
+    border-radius: 5px; 
+    background-color: #3882f6;
+    color:#f9faf8;
+}
+
+.ctabox button {
+    color: #f9faf8;
+    border: solid;
+    border-width: 2px;
+    border-color: #f9faf8;
+}
+
+#ctaheader {
+    font-weight: bold;
+}
+
+.ctabox {
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    gap: 30px;
+}
+
+.ctap {
+    display: flex;
+    flex-direction: column;
+}
+
+.ctap p {
+    margin: 0;
+    
+}
+
+footer {
+    background-color: #1f2937;
+    height: 80px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}  
+
+footer p {
+    margin: 0;
+color: #f9faf8;
 }
